@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChevronDown, Download, RefreshCw } from 'lucide-react';
 
-// Profile image from Figma
-const profileImg = "../../public/2291cf4f-e893-443d-9384-319e30037bdc.jpg";
+
+import profileImg from '../assets/2291cf4f-e893-443d-9384-319e30037bdc.jpg';
 
 const Hero: React.FC = () => {
   return (
