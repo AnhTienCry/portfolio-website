@@ -1,10 +1,11 @@
 import React from 'react';
-import { ChevronDown, Download, RefreshCw } from 'lucide-react';
+import { ChevronDown, RefreshCw } from 'lucide-react';
 
 
 import profileImg from '../assets/2291cf4f-e893-443d-9384-319e30037bdc.jpg';
 
 const Hero: React.FC = () => {
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Effects */}
@@ -50,17 +51,21 @@ const Hero: React.FC = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <a
-                href="#contact"
+              {/* <button
+                onClick={scrollToContact}
                 className="inline-flex items-center gap-2 bg-primary text-dark-bg font-medium px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
                 Liên hệ ngay
-                <ChevronDown size={16} className="rotate-90deg" />
-              </a>
-              <button className="inline-flex items-center gap-2 bg-transparent border border-dark-border text-text-primary font-medium px-6 py-3 rounded-lg hover:border-primary transition-colors">
+                <ChevronDown size={16} className="-rotate-90" />
+              </button>
+              <a 
+                href="/cv.pdf" 
+                download="TranAnhTien_CV.pdf"
+                className="inline-flex items-center gap-2 bg-transparent border border-dark-border text-text-primary font-medium px-6 py-3 rounded-lg hover:border-primary transition-colors"
+              >
                 <Download size={16} />
                 Tải CV
-              </button>
+              </a> */}
             </div>
 
             {/* Stats */}
